@@ -46,7 +46,7 @@ def bin2hex(numero_binario):
     while len(n)%4 != 0:
         n = "0" + n
 
-    numero_hexadecimal = ""
+    numero_hexadecimal 
     for i in range(int(len(n)/4)):
         numero_hexadecimal += TablabinHex(n[i*4:i*4+4])
         
